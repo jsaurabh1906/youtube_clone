@@ -61,6 +61,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+## Adding Environment Variables
+
+To add environment variables to your application, create a `.env` file in the root of your project directory. Then, add the following environment variable:
+
+REACT_APP_RAPID_API_KEY="your_rapid_api_key"
+
+Replace `"your_rapid_api_key"` with your actual Rapid API key. This key is necessary for certain features of your application to work properly. Make sure not to share your API key publicly.
+
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
